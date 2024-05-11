@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\urunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\urunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +33,19 @@
               "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\Form1.cs [Design]",
               "RelativeToolTip": "Ticari_Otomasyon\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T09:40:54.876Z",
+              "WhenOpened": "2024-05-11T13:06:34.961Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Urunler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\Urunler.cs",
+              "RelativeDocumentMoniker": "Ticari_Otomasyon\\Urunler.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\Urunler.cs [Design]",
+              "RelativeToolTip": "Ticari_Otomasyon\\Urunler.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:36:18.711Z",
               "EditorCaption": " [Design]"
             }
           ]
