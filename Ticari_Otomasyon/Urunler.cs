@@ -28,10 +28,24 @@ namespace Ticari_Otomasyon
             SqlDataAdapter da = new SqlDataAdapter("Select * From TBL_URUNLER", bgl.baglanti());
             da.Fill(dt);
             gridControl1.DataSource = dt;
+            temizle();
         }
         private void Urunler_Load(object sender, EventArgs e)
         {
             listele();
+        }
+
+        void temizle()
+        {
+            txedID.Text = "";
+            txedAd.Text = "";
+            txedMarka.Text = "";
+            txedModel.Text = "";
+            mtbxYil.Text = "";
+            nmudAdet.Value = 0;
+            txedAlisFiyat.Text = "";
+            txedSatisFiyat.Text = "";
+            rtbxDetay.Text = "";
         }
 
         void Ekle()
@@ -103,6 +117,11 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Ürün bilgisi güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            temizle();
         }
     }
 }
