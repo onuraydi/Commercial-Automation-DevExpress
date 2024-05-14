@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmpersoneller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmpersoneller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmgiderler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmgiderler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmpersoneller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmpersoneller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmgiderler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmgiderler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmmusteriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmmusteriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmmusteriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmmusteriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|c:\\users\\onur\\desktop\\ticari_otomasyon\\ticari_otomasyon\\frmanamodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CA45A1F-B582-4BA2-ADFE-33843242033A}|Ticari_Otomasyon\\Ticari_Otomasyon.csproj|solutionrelative:ticari_otomasyon\\frmanamodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMusteriler.cs",
-              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmMusteriler.cs",
-              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmMusteriler.cs",
-              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmMusteriler.cs",
-              "RelativeToolTip": "Ticari_Otomasyon\\FrmMusteriler.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAUwE4AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:51:44.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmPersoneller.cs",
-              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmPersoneller.cs",
-              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmPersoneller.cs",
-              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmPersoneller.cs",
-              "RelativeToolTip": "Ticari_Otomasyon\\FrmPersoneller.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAnwI4AAAAWAAAA",
+              "Title": "FrmGiderler.cs",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmGiderler.cs",
+              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmGiderler.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmGiderler.cs",
+              "RelativeToolTip": "Ticari_Otomasyon\\FrmGiderler.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAiwG8AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:51:13.758Z",
+              "WhenOpened": "2024-05-13T13:32:33.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmPersoneller.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmPersoneller.cs",
-              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmPersoneller.cs",
-              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmPersoneller.cs [Design]",
-              "RelativeToolTip": "Ticari_Otomasyon\\FrmPersoneller.cs [Design]",
+              "Title": "FrmGiderler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmGiderler.cs",
+              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmGiderler.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmGiderler.cs [Design]",
+              "RelativeToolTip": "Ticari_Otomasyon\\FrmGiderler.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:40:18.407Z",
+              "WhenOpened": "2024-05-13T13:17:10.878Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMusteriler.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmMusteriler.cs",
-              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmMusteriler.cs",
-              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmMusteriler.cs [Design]",
-              "RelativeToolTip": "Ticari_Otomasyon\\FrmMusteriler.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "FrmAnaModul.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmAnaModul.cs",
+              "RelativeDocumentMoniker": "Ticari_Otomasyon\\FrmAnaModul.cs",
+              "ToolTip": "C:\\Users\\ONUR\\Desktop\\Ticari_Otomasyon\\Ticari_Otomasyon\\FrmAnaModul.cs [Design]",
+              "RelativeToolTip": "Ticari_Otomasyon\\FrmAnaModul.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T11:42:53.437Z",
+              "WhenOpened": "2024-05-13T11:27:51.087Z",
               "EditorCaption": " [Design]"
             }
           ]

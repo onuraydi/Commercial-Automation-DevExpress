@@ -61,8 +61,12 @@
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
-            this.lbcAdres = new DevExpress.XtraEditors.LabelControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
+            this.BtnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.rctbAdres = new System.Windows.Forms.RichTextBox();
+            this.lbcAdres = new DevExpress.XtraEditors.LabelControl();
             this.lbcVergıDairesi = new DevExpress.XtraEditors.LabelControl();
             this.txedVergiDairesi = new DevExpress.XtraEditors.TextEdit();
             this.cbxIlce = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -88,10 +92,6 @@
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.btnGuncelle = new DevExpress.XtraEditors.SimpleButton();
-            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
-            this.BtnKaydet = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
@@ -165,8 +165,9 @@
             // xtraTabPage1
             // 
             this.xtraTabPage1.Controls.Add(this.tableLayoutPanel2);
+            this.xtraTabPage1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage1.ImageOptions.Image")));
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(306, 661);
+            this.xtraTabPage1.Size = new System.Drawing.Size(306, 645);
             this.xtraTabPage1.Text = "Firma Bilgileri";
             // 
             // tableLayoutPanel2
@@ -184,7 +185,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(306, 661);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(306, 645);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // groupControl2
@@ -199,7 +200,7 @@
             this.groupControl2.Location = new System.Drawing.Point(3, 3);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.ShowCaption = false;
-            this.groupControl2.Size = new System.Drawing.Size(300, 214);
+            this.groupControl2.Size = new System.Drawing.Size(300, 209);
             this.groupControl2.TabIndex = 0;
             this.groupControl2.Text = "groupControl2";
             // 
@@ -281,10 +282,10 @@
             this.groupControl3.Controls.Add(this.txedYetkili);
             this.groupControl3.Controls.Add(this.lbcYetkili);
             this.groupControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl3.Location = new System.Drawing.Point(3, 223);
+            this.groupControl3.Location = new System.Drawing.Point(3, 218);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.ShowCaption = false;
-            this.groupControl3.Size = new System.Drawing.Size(300, 214);
+            this.groupControl3.Size = new System.Drawing.Size(300, 209);
             this.groupControl3.TabIndex = 1;
             this.groupControl3.Text = "groupControl3";
             // 
@@ -371,10 +372,10 @@
             this.groupControl4.Controls.Add(this.lbcTel);
             this.groupControl4.Controls.Add(this.mtbTel2);
             this.groupControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl4.Location = new System.Drawing.Point(3, 443);
+            this.groupControl4.Location = new System.Drawing.Point(3, 433);
             this.groupControl4.Name = "groupControl4";
             this.groupControl4.ShowCaption = false;
-            this.groupControl4.Size = new System.Drawing.Size(300, 215);
+            this.groupControl4.Size = new System.Drawing.Size(300, 209);
             this.groupControl4.TabIndex = 2;
             this.groupControl4.Text = "groupControl4";
             // 
@@ -496,6 +497,7 @@
             // xtraTabPage2
             // 
             this.xtraTabPage2.Controls.Add(this.tableLayoutPanel3);
+            this.xtraTabPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage2.ImageOptions.Image")));
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(306, 661);
             this.xtraTabPage2.Text = "Adres Bilgileri";
@@ -537,6 +539,72 @@
             this.groupControl5.TabIndex = 0;
             this.groupControl5.Text = "groupControl5";
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(122, 400);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(149, 45);
+            this.simpleButton1.TabIndex = 37;
+            this.simpleButton1.Text = "Temizle";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // btnGuncelle
+            // 
+            this.btnGuncelle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuncelle.Appearance.Options.UseFont = true;
+            this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.ImageOptions.Image")));
+            this.btnGuncelle.Location = new System.Drawing.Point(122, 349);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(149, 45);
+            this.btnGuncelle.TabIndex = 36;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
+            // 
+            // btnSil
+            // 
+            this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSil.Appearance.Options.UseFont = true;
+            this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
+            this.btnSil.Location = new System.Drawing.Point(122, 298);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(149, 45);
+            this.btnSil.TabIndex = 35;
+            this.btnSil.Text = "Sil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
+            // 
+            // BtnKaydet
+            // 
+            this.BtnKaydet.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnKaydet.Appearance.Options.UseFont = true;
+            this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
+            this.BtnKaydet.Location = new System.Drawing.Point(122, 247);
+            this.BtnKaydet.Name = "BtnKaydet";
+            this.BtnKaydet.Size = new System.Drawing.Size(149, 45);
+            this.BtnKaydet.TabIndex = 34;
+            this.BtnKaydet.Text = "Kaydet";
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
+            // 
+            // rctbAdres
+            // 
+            this.rctbAdres.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rctbAdres.Location = new System.Drawing.Point(122, 125);
+            this.rctbAdres.Name = "rctbAdres";
+            this.rctbAdres.Size = new System.Drawing.Size(149, 107);
+            this.rctbAdres.TabIndex = 32;
+            this.rctbAdres.Text = "";
+            // 
             // lbcAdres
             // 
             this.lbcAdres.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -549,16 +617,6 @@
             this.lbcAdres.TabIndex = 33;
             this.lbcAdres.Text = "Adres:";
             this.lbcAdres.Click += new System.EventHandler(this.labelControl12_Click);
-            // 
-            // rctbAdres
-            // 
-            this.rctbAdres.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.rctbAdres.Location = new System.Drawing.Point(122, 125);
-            this.rctbAdres.Name = "rctbAdres";
-            this.rctbAdres.Size = new System.Drawing.Size(149, 107);
-            this.rctbAdres.TabIndex = 32;
-            this.rctbAdres.Text = "";
             // 
             // lbcVergıDairesi
             // 
@@ -638,6 +696,7 @@
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.tableLayoutPanel4);
+            this.xtraTabPage3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage3.ImageOptions.Image")));
             this.xtraTabPage3.Name = "xtraTabPage3";
             this.xtraTabPage3.Size = new System.Drawing.Size(306, 661);
             this.xtraTabPage3.Text = "Özel Kodlar";
@@ -830,62 +889,6 @@
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
-            // 
-            // btnGuncelle
-            // 
-            this.btnGuncelle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGuncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuncelle.Appearance.Options.UseFont = true;
-            this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.ImageOptions.Image")));
-            this.btnGuncelle.Location = new System.Drawing.Point(122, 349);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(149, 45);
-            this.btnGuncelle.TabIndex = 36;
-            this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
-            // 
-            // btnSil
-            // 
-            this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSil.Appearance.Options.UseFont = true;
-            this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
-            this.btnSil.Location = new System.Drawing.Point(122, 298);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(149, 45);
-            this.btnSil.TabIndex = 35;
-            this.btnSil.Text = "Sil";
-            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
-            // 
-            // BtnKaydet
-            // 
-            this.BtnKaydet.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnKaydet.Appearance.Options.UseFont = true;
-            this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
-            this.BtnKaydet.Location = new System.Drawing.Point(122, 247);
-            this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(149, 45);
-            this.BtnKaydet.TabIndex = 34;
-            this.BtnKaydet.Text = "Kaydet";
-            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(122, 400);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(149, 45);
-            this.simpleButton1.TabIndex = 37;
-            this.simpleButton1.Text = "Temizle";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // FrmFirmalar
             // 

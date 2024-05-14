@@ -69,6 +69,18 @@
     <Compile Include="FrmFirmalar.Designer.cs">
       <DependentUpon>FrmFirmalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGiderler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiderler.Designer.cs">
+      <DependentUpon>FrmGiderler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMail.Designer.cs">
+      <DependentUpon>FrmMail.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMusteriler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     </Compile>
     <Compile Include="FrmPersoneller.Designer.cs">
       <DependentUpon>FrmPersoneller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRehber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRehber.Designer.cs">
+      <DependentUpon>FrmRehber.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,11 +114,20 @@
     <EmbeddedResource Include="FrmFirmalar.resx">
       <DependentUpon>FrmFirmalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiderler.resx">
+      <DependentUpon>FrmGiderler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMail.resx">
+      <DependentUpon>FrmMail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMusteriler.resx">
       <DependentUpon>FrmMusteriler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersoneller.resx">
       <DependentUpon>FrmPersoneller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRehber.resx">
+      <DependentUpon>FrmRehber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -64,5 +64,25 @@ namespace Ticari_Otomasyon
                 fr4.Show();
             }
         }
+        FrmRehber fr5;
+        private void btnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if(fr5 == null)
+            {
+                fr5 = new FrmRehber();  
+                fr5.MdiParent = this;
+                fr5.Show();
+            }
+        }
+        FrmGiderler fr6;
+        private void btnGiderler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if(fr6 == null)
+            {
+                fr6 = new FrmGiderler();
+                fr6.MdiParent = this;
+                fr6.Show();
+            }
+        }
     }
 }

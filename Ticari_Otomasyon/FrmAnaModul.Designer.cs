@@ -156,6 +156,7 @@
             this.btnGiderler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGiderler.ItemAppearance.Normal.Options.UseFont = true;
             this.btnGiderler.Name = "btnGiderler";
+            this.btnGiderler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiderler_ItemClick);
             // 
             // btnKasa
             // 
@@ -192,6 +193,7 @@
             this.btnRehber.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRehber.ItemAppearance.Normal.Options.UseFont = true;
             this.btnRehber.Name = "btnRehber";
+            this.btnRehber.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnRehber_ItemClick);
             // 
             // btnFaturalar
             // 
