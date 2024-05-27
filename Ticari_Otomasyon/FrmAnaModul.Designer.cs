@@ -184,6 +184,7 @@
             this.btnBankalar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBankalar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnBankalar.Name = "btnBankalar";
+            this.btnBankalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnBankalar_ItemClick);
             // 
             // btnRehber
             // 

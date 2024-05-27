@@ -499,7 +499,7 @@
             this.xtraTabPage2.Controls.Add(this.tableLayoutPanel3);
             this.xtraTabPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage2.ImageOptions.Image")));
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(306, 661);
+            this.xtraTabPage2.Size = new System.Drawing.Size(306, 645);
             this.xtraTabPage2.Text = "Adres Bilgileri";
             // 
             // tableLayoutPanel3
@@ -513,7 +513,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(306, 661);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(306, 645);
             this.tableLayoutPanel3.TabIndex = 1;
             this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
             // 
@@ -535,7 +535,7 @@
             this.groupControl5.Location = new System.Drawing.Point(3, 3);
             this.groupControl5.Name = "groupControl5";
             this.groupControl5.ShowCaption = false;
-            this.groupControl5.Size = new System.Drawing.Size(300, 456);
+            this.groupControl5.Size = new System.Drawing.Size(300, 445);
             this.groupControl5.TabIndex = 0;
             this.groupControl5.Text = "groupControl5";
             // 
@@ -698,7 +698,7 @@
             this.xtraTabPage3.Controls.Add(this.tableLayoutPanel4);
             this.xtraTabPage3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage3.ImageOptions.Image")));
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(306, 661);
+            this.xtraTabPage3.Size = new System.Drawing.Size(306, 645);
             this.xtraTabPage3.Text = "Özel Kodlar";
             // 
             // tableLayoutPanel4
@@ -713,7 +713,7 @@
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(306, 661);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(306, 645);
             this.tableLayoutPanel4.TabIndex = 2;
             // 
             // groupControl6
@@ -728,7 +728,7 @@
             this.groupControl6.Location = new System.Drawing.Point(3, 3);
             this.groupControl6.Name = "groupControl6";
             this.groupControl6.ShowCaption = false;
-            this.groupControl6.Size = new System.Drawing.Size(300, 192);
+            this.groupControl6.Size = new System.Drawing.Size(300, 187);
             this.groupControl6.TabIndex = 0;
             this.groupControl6.Text = "groupControl6";
             // 
@@ -805,9 +805,9 @@
             // 
             this.groupControl7.Controls.Add(this.RctbOzelKod3);
             this.groupControl7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl7.Location = new System.Drawing.Point(3, 201);
+            this.groupControl7.Location = new System.Drawing.Point(3, 196);
             this.groupControl7.Name = "groupControl7";
-            this.groupControl7.Size = new System.Drawing.Size(300, 457);
+            this.groupControl7.Size = new System.Drawing.Size(300, 446);
             this.groupControl7.TabIndex = 1;
             this.groupControl7.Text = "Özel Kodlar Ve Anlamları";
             // 
@@ -817,7 +817,7 @@
             this.RctbOzelKod3.Location = new System.Drawing.Point(2, 23);
             this.RctbOzelKod3.Name = "RctbOzelKod3";
             this.RctbOzelKod3.SelectedTabPage = this.xtraTabPage4;
-            this.RctbOzelKod3.Size = new System.Drawing.Size(296, 432);
+            this.RctbOzelKod3.Size = new System.Drawing.Size(296, 421);
             this.RctbOzelKod3.TabIndex = 0;
             this.RctbOzelKod3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage4,
@@ -828,7 +828,7 @@
             // 
             this.xtraTabPage4.Controls.Add(this.rctbOzelKod1);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(294, 408);
+            this.xtraTabPage4.Size = new System.Drawing.Size(294, 397);
             this.xtraTabPage4.Text = "Özel Kod 1";
             // 
             // rctbOzelKod1
@@ -837,7 +837,7 @@
             this.rctbOzelKod1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rctbOzelKod1.Location = new System.Drawing.Point(0, 0);
             this.rctbOzelKod1.Name = "rctbOzelKod1";
-            this.rctbOzelKod1.Size = new System.Drawing.Size(294, 408);
+            this.rctbOzelKod1.Size = new System.Drawing.Size(294, 397);
             this.rctbOzelKod1.TabIndex = 0;
             this.rctbOzelKod1.Text = "";
             // 
@@ -845,7 +845,7 @@
             // 
             this.xtraTabPage5.Controls.Add(this.rctbOzelKod2);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(294, 408);
+            this.xtraTabPage5.Size = new System.Drawing.Size(294, 397);
             this.xtraTabPage5.Text = "Özel Kod 2";
             // 
             // rctbOzelKod2
@@ -853,7 +853,7 @@
             this.rctbOzelKod2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rctbOzelKod2.Location = new System.Drawing.Point(0, 0);
             this.rctbOzelKod2.Name = "rctbOzelKod2";
-            this.rctbOzelKod2.Size = new System.Drawing.Size(294, 408);
+            this.rctbOzelKod2.Size = new System.Drawing.Size(294, 397);
             this.rctbOzelKod2.TabIndex = 1;
             this.rctbOzelKod2.Text = "";
             // 
@@ -861,7 +861,7 @@
             // 
             this.xtraTabPage6.Controls.Add(this.richTextBox4);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(294, 408);
+            this.xtraTabPage6.Size = new System.Drawing.Size(294, 397);
             this.xtraTabPage6.Text = "Özel Kod 3";
             // 
             // richTextBox4
@@ -869,7 +869,7 @@
             this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox4.Location = new System.Drawing.Point(0, 0);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(294, 408);
+            this.richTextBox4.Size = new System.Drawing.Size(294, 397);
             this.richTextBox4.TabIndex = 1;
             this.richTextBox4.Text = "";
             // 

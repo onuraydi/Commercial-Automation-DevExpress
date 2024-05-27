@@ -50,3 +50,4 @@ C:\Users\ONUR\Desktop\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasy
 C:\Users\ONUR\Desktop\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmRehber.resources
 C:\Users\ONUR\Desktop\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmMail.resources
 C:\Users\ONUR\Desktop\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmGiderler.resources
+C:\Users\ONUR\Desktop\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmBankalar.resources
