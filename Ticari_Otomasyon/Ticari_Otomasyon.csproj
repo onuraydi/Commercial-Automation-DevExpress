@@ -69,6 +69,24 @@
     <Compile Include="FrmBankalar.Designer.cs">
       <DependentUpon>FrmBankalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmFaturalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturalar.Designer.cs">
+      <DependentUpon>FrmFaturalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFaturaUrunDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturaUrunDetay.Designer.cs">
+      <DependentUpon>FrmFaturaUrunDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFaturaUrunuGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturaUrunuGuncelleme.Designer.cs">
+      <DependentUpon>FrmFaturaUrunuGuncelleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmFirmalar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +110,18 @@
     </Compile>
     <Compile Include="FrmMusteriler.Designer.cs">
       <DependentUpon>FrmMusteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotDetay.Designer.cs">
+      <DependentUpon>FrmNotDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotlar.Designer.cs">
+      <DependentUpon>FrmNotlar.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPersoneller.cs">
       <SubType>Form</SubType>
@@ -120,6 +150,15 @@
     <EmbeddedResource Include="FrmBankalar.resx">
       <DependentUpon>FrmBankalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturalar.resx">
+      <DependentUpon>FrmFaturalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturaUrunDetay.resx">
+      <DependentUpon>FrmFaturaUrunDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturaUrunuGuncelleme.resx">
+      <DependentUpon>FrmFaturaUrunuGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmFirmalar.resx">
       <DependentUpon>FrmFirmalar.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +170,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMusteriler.resx">
       <DependentUpon>FrmMusteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotDetay.resx">
+      <DependentUpon>FrmNotDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotlar.resx">
+      <DependentUpon>FrmNotlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersoneller.resx">
       <DependentUpon>FrmPersoneller.cs</DependentUpon>
