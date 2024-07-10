@@ -1,0 +1,1 @@
+﻿select UrunAd,Sum(Adet) from TBL_URUNLER group by urunAd

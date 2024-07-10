@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>DevExpress.XtraReports.v23.2.CodeCompletion</name>
+  </assembly>
+  <members>
+    <member name="N:DevExpress.XtraReports.CodeCompletion">
+      <summary>
+        <para>Contains classes that implement the code completion functionality for End-User Report Designers.</para>
+      </summary>
+    </member>
+    <member name="T:DevExpress.XtraReports.CodeCompletion.CodeCompletionRequestManager">
+      <summary>
+        <para>Enables you to use the local code completion engine in End-User Report Designers.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.CodeCompletionRequestManager.UseLocalEngine">
+      <summary>
+        <para>Activates the local code completion engine and stores report layouts in memory.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.CodeCompletionRequestManager.UseLocalEngine(DevExpress.XtraReports.CodeCompletion.Storages.ICodeCompletionContextStorage)">
+      <summary>
+        <para>Activates the local code completion engine and stores report layouts in the specified storage.</para>
+      </summary>
+      <param name="contextStorage">A report layout storage that implements the <see cref="T:DevExpress.XtraReports.CodeCompletion.Storages.ICodeCompletionContextStorage">ICodeCompletionContextStorage</see> interface.</param>
+    </member>
+    <member name="N:DevExpress.XtraReports.CodeCompletion.Storages">
+      <summary>
+        <para>Contains classes that implement storage for the code completion functionality in End-User Report Designers.</para>
+      </summary>
+    </member>
+    <member name="T:DevExpress.XtraReports.CodeCompletion.Storages.FileCodeCompletionContextStorage">
+      <summary>
+        <para>A file storage for the local code completion engine.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.FileCodeCompletionContextStorage.#ctor(System.String)">
+      <summary>
+        <para>Creates a new instance of the <see cref="T:DevExpress.XtraReports.CodeCompletion.Storages.FileCodeCompletionContextStorage">FileCodeCompletionContextStorage</see> class with the specified folder.</para>
+      </summary>
+      <param name="directoryPath">A string that specifies the folder to store report layouts.</param>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.FileCodeCompletionContextStorage.Clear(System.String)">
+      <summary>
+        <para>Removes the report layout with the specified key from storage.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.FileCodeCompletionContextStorage.LoadCompletionContext(System.String,System.IO.Stream)">
+      <summary>
+        <para>Loads the report layout with the specified key from storage.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream">Stream</see> object that contains the report layout to load.</param>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.FileCodeCompletionContextStorage.SaveCompletionContext(System.String,System.IO.Stream)">
+      <summary>
+        <para>Saves the report layout to storage under the specified key.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream">Stream</see> object that contains the report layout to save.</param>
+    </member>
+    <member name="T:DevExpress.XtraReports.CodeCompletion.Storages.ICodeCompletionContextStorage">
+      <summary>
+        <para>Enables you to implement a custom report layout storage for the local code completion engine.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.ICodeCompletionContextStorage.Clear(System.String)">
+      <summary>
+        <para>If implemented, removes the report layout with the specified key from storage.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.ICodeCompletionContextStorage.LoadCompletionContext(System.String,System.IO.Stream)">
+      <summary>
+        <para>If implemented, loads the report layout with the specified key from storage.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream">Stream</see> object that contains the report layout to load.</param>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.ICodeCompletionContextStorage.SaveCompletionContext(System.String,System.IO.Stream)">
+      <summary>
+        <para>If implemented, saves the report layout to storage under the specified key.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream">Stream</see> object that contains the report layout to save.</param>
+    </member>
+    <member name="T:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage">
+      <summary>
+        <para>An in-memory storage for the local code completion engine.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage.#ctor">
+      <summary>
+        <para>Creates a new instance of the <see cref="T:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage">InMemoryCodeCompletionContextStorage</see> class.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage.Clear(System.String)">
+      <summary>
+        <para>Removes the report layout with the specified key from storage.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+    </member>
+    <member name="P:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage.Contracts">
+      <summary>
+        <para>For internal use.</para>
+      </summary>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage.LoadCompletionContext(System.String,System.IO.Stream)">
+      <summary>
+        <para>Loads the report layout with the specified key from storage.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+      <param name="context">A <see cref="T:System.IO.Stream">Stream</see> object that contains the report layout to load.</param>
+    </member>
+    <member name="M:DevExpress.XtraReports.CodeCompletion.Storages.InMemoryCodeCompletionContextStorage.SaveCompletionContext(System.String,System.IO.Stream)">
+      <summary>
+        <para>Saves the report layout to storage under the specified key.</para>
+      </summary>
+      <param name="key">A string that specifies the report layout’s key.</param>
+      <param name="context">A <see cref="T:System.IO.Stream">Stream</see> object that contains the report layout to save.</param>
+    </member>
+  </members>
+</doc>
